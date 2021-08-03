@@ -36,7 +36,7 @@ public class Vacante {
 	private LocalDate fecha = LocalDate.now();
 	private Integer destacado;
 	private String estatus;
-	private String imagen = "no-image.png";
+	private String imagen = "";
 	private String detalles;
 	//@Transient
 	@OneToOne

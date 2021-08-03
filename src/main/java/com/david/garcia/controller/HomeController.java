@@ -52,6 +52,6 @@ public class HomeController {
 		System.out.println(usuario);
 		usuariosService.guardar(usuario);
 		
-		return "/formLogin";
+		return "home";
 	}
 }
